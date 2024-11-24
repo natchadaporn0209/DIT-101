@@ -55,29 +55,37 @@ public class result1 extends javax.swing.JFrame {
 
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Leelawadee", 0, 14)); // NOI18N
+        jTextArea1.setForeground(new java.awt.Color(123, 152, 97));
         jTextArea1.setRows(5);
         jTextArea1.setText("1. โปรตีน (ประมาณ 50-60 กรัมต่อวัน):\n • เนื้อสัตว์ไม่ติดมัน เช่น อกไก่ ปลา ไข่\n • ถั่ว เต้าหู้ และผลิตภัณฑ์จากนม เช่น นมจืด \nโยเกิร์ตไขมันต่ำ\n • ช่วยสร้างกล้ามเนื้อและซ่อมแซมเซลล์\n 2. คาร์โบไฮเดรตซับซ้อน:\n • ข้าวกล้อง โฮลวีต ขนมปังธัญพืช\n • มันฝรั่ง ฟักทอง เผือก\n • ช่วยให้พลังงานอย่างยั่งยืนตลอดวัน\n 3. ไขมันดี:\n • อะโวคาโด ถั่ว น้ำมันมะกอก น้ำมันปลา\n • ช่วยในการดูดซึมวิตามินและบำรุงสมอง\n 4. ผักและผลไม้:\n • ผักใบเขียว เช่น ผักโขม คะน้า บรอกโคลี\n • ผลไม้สด เช่น กล้วย แอปเปิ้ล ส้ม\n • เพิ่มใยอาหารและวิตามินที่จำเป็น\n 5. แคลเซียม:\n • ดื่มนมประมาณ 1-2 แก้วต่อวัน หรือโยเกิร์ต\nนมถั่วเหลืองเสริมแคลเซียม\n • ช่วยเสริมสร้างกระดูกและฟัน");
         jScrollPane1.setViewportView(jTextArea1);
 
+        jTextArea2.setBackground(new java.awt.Color(123, 152, 97));
         jTextArea2.setColumns(20);
         jTextArea2.setFont(new java.awt.Font("Leelawadee", 0, 14)); // NOI18N
+        jTextArea2.setForeground(new java.awt.Color(255, 255, 255));
         jTextArea2.setRows(5);
         jTextArea2.setText("คำแนะนำการรับ\nประทานอาหาร");
         jScrollPane2.setViewportView(jTextArea2);
 
+        jTextArea4.setBackground(new java.awt.Color(123, 152, 97));
         jTextArea4.setColumns(20);
         jTextArea4.setFont(new java.awt.Font("Leelawadee", 0, 14)); // NOI18N
+        jTextArea4.setForeground(new java.awt.Color(255, 255, 255));
         jTextArea4.setRows(5);
         jTextArea4.setText("พลังงานที่\nคุณควรได้รับ");
         jScrollPane4.setViewportView(jTextArea4);
 
         jTextArea5.setColumns(20);
         jTextArea5.setFont(new java.awt.Font("Leelawadee", 0, 14)); // NOI18N
+        jTextArea5.setForeground(new java.awt.Color(123, 152, 97));
         jTextArea5.setRows(5);
         jTextArea5.setText("ร่างกายของคุณต้องการพลังงานประมาณ\n 1,600-1,800 กิโลแคลอรีต่อวัน\n (อาจเพิ่มหรือลดขึ้นอยู่กับระดับกิจกรรมประจำวัน)");
         jScrollPane5.setViewportView(jTextArea5);
 
+        jButton1.setBackground(new java.awt.Color(123, 152, 97));
         jButton1.setFont(new java.awt.Font("Leelawadee", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("อาหาร");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -113,8 +121,8 @@ public class result1 extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 322, Short.MAX_VALUE)
-                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 328, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton1)
                 .addGap(19, 19, 19))
         );
